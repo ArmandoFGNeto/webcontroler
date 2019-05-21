@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body id="main-container">
+<div id="inner-container" class="container">
+  <table id="dynamicTable" class="timecard">
+    <tr>
+      <th>Id</th>
+      <th>Status</th> 
+      <th>Last update</th>
+      <th>Commands</th>
+    </tr>
+  </table>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/paho-mqtt-min.js"></script>
+<script type="text/javascript" src="js/mqtt-config.js"></script>
+<script type="text/javascript" src="js/mqtt-client.js"></script>
+<script type="text/javascript" src="js/lamp-control.js"></script>
+</body>
+</html>
